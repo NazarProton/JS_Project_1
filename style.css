@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f2f4f8;
+  }
+  
+  h1 {
+    color: rgb(95, 95, 95);
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 100px;
+    font-size: 40vmin;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+  }
+  
+  h1 {
+    display: block;
+  }
+  
+  .blocks {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .all {
+    color: rgb(98, 98, 98);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 20px;
+  }
+  
+  .js-block {
+    flex-wrap:wrap;
+    flex: 20%;
+    max-width: 20%;
+  }
+  
+  .js-block {
+    
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 14px 26px rgb(0 0 0 / 4%);
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .js-block:hover {
+    transform: scale(1.05);
+  }
+  
+  .js-header {
+    background-color: #a2e2ff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    position: relative;
+  }
+  
+  .js-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+  }
+  
+  .description {
+    font-size: 35px;
+    text-align: center;
+    min-height: 35px;
+  }
